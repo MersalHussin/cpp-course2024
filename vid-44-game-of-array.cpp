@@ -19,6 +19,7 @@ int main(){
     cin >> answers[0];
 
     
+    
     cout << "Sequances 2 \n";
     cout << "1 | 4 | 8 | 16  | ?? \n";
     cin >> answers[1];
