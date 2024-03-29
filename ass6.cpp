@@ -225,5 +225,71 @@ cout << end(nums)-begin(nums); // I don't understand it well
 
 
 
-   return 0;
+
+
+
+
+
+/* 11 حاول تشوفلها حل تاني برضو أحسن
+
+  // Do Not Edit The Next 3 Lines
+  int index = 1;
+  array<int, 3> oldNums = {10, 20, 30};
+  array<int, 3> newNums;
+
+  // Write Your Code Here
+    newNums = oldNums;
+    newNums[index-index] = oldNums[index+index];
+    newNums[index] = oldNums[index];
+    newNums[index+index] = oldNums[index-index];
+  // Do Not Edit The Next 3 Lines
+  cout << newNums[0] << "\n"; // 30
+  cout << newNums[1] << "\n"; // 20
+  cout << newNums[2] << "\n"; // 10
+
+  return 0;
+
+  */
+
+
+
+
+
+
+
+ /* 12
+
+ // Do Not Edit The Next 6 Lines
+int nums[] = {1, 2, 3, 5};
+int vals[] = {10, 20, 40, 30, 10, 60};
+int i1 = nums[3];
+int i2 = nums[0];
+int i3 = nums[1];
+int i4 = nums[2];
+
+// Need To Get Ouput 150
+cout <<i1+i3+i4+vals[2]+vals[3]+vals[4]+vals[5];
+// You Can Use Plus Operator Only
+
+// Your Code Here
+*/
+
+
+
+
+
+//13
+string fName = "Elzero ";
+string mName = "Web ";
+string lName = "School";
+
+
+// 1
+cout << fName+mName+lName << "\n";
+// 2
+cout << fName << mName << lName << "\n";
+// 3
+cout << fName.append(mName + lName) <<  "\n";
+
+return 0 ;
 }
